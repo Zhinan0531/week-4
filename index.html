@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Zhinan Zhang — Master of Digital Education Student. Personal portfolio, projects, skills, and contact." />
+  <title>Zhinan Zhang — Master of Digital Education Student</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css?v=14" />
+</head>
+<body>
+  <!-- Navigation -->
+  <header class="nav" id="top">
+    <a href="#top" class="nav__brand">Zhinan Zhang</a>
+    <nav class="nav__links">
+      <a href="#about">About</a>
+      <a href="#resume">Resume</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#favorites">Favorites</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="nav__toggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero__inner">
+      <div class="hero__content">
+        <p class="hero__greeting">Hi, I'm Zhinan</p>
+        <h1 class="hero__title">Master of Digital Education Student<br />exploring the future of learning.</h1>
+        <p class="hero__subtitle">
+          I study how digital technologies can transform education — blending
+          pedagogy, design, and emerging tech to create better learning experiences.
+          Currently based in Shanghai.
+        </p>
+        <div class="hero__actions">
+          <a href="#projects" class="btn btn--primary">View my work</a>
+          <a href="#contact" class="btn btn--ghost">Get in touch</a>
+        </div>
+      </div>
+      <div class="hero__photo">
+        <img src="assets/profile.jpg" alt="Zhinan Zhang" class="hero__avatar" width="320" height="320" />
+      </div>
+    </div>
+  </section>
+
+  <main>
+    <!-- About -->
+    <section id="about" class="section">
+      <div class="section__inner">
+        <header class="section__head">
+          <span class="section__index">01</span>
+          <h2 class="section__title">About</h2>
+        </header>
+        <div class="about">
+          <div class="about__text">
+            <p>
+              Hi, I'm Zhinan Zhang — a Master of Digital Education student
+              based in Shanghai. I'm passionate about how technology can make
+              learning more engaging, accessible, and effective for everyone.
+              My work sits at the intersection of education, design, and digital
+              innovation.
+            </p>
+            <p>
+              I love exploring new educational tools, thinking thoughtfully about
+              pedagogy, and building things that help people learn. When I'm not
+              studying, you'll find me hunting for great coffee around the city,
+              reading up on edtech trends, or experimenting with creative projects.
+            </p>
+          </div>
+          <dl class="about__facts">
+            <div>
+              <dt>Location</dt>
+              <dd>Shanghai, CN</dd>
+            </div>
+            <div>
+              <dt>Degree</dt>
+              <dd>Master of Digital Education</dd>
+            </div>
+            <div>
+              <dt>Focus</dt>
+              <dd>Digital Learning &amp; EdTech</dd>
+            </div>
+            <div>
+              <dt>Availability</dt>
+              <dd>Open to internships &amp; research</dd>
+            </div>
+          </dl>
+        </div>
+      </div>
+    </section>
+
+    <!-- Resume -->
+    <section id="resume" class="section section--alt">
+      <div class="section__inner">
+        <header class="section__head">
+          <span class="section__index">02</span>
+          <h2 class="section__title">Resume</h2>
+          <a href="resume.pdf" download="Zhinan-Zhang-Resume.pdf" class="btn btn--ghost resume__download">Download PDF</a>
+        </header>
+
+        <div class="resume">
+          <!-- Summary -->
+          <div class="resume__block">
+            <h3 class="resume__subtitle">Summary</h3>
+            <p class="resume__lead">
+              Translation and interpretation graduate from Tianjin Foreign Studies University
+              with a weighted average of 86.25/100 and a strong record of research leadership.
+              Experienced in cross-cultural communication, academic translation, and educational
+              volunteer work, with a passion for making knowledge accessible across languages.
+            </p>
+          </div>
+
+          <!-- Experience -->
+          <div class="resume__block">
+            <h3 class="resume__subtitle">Experience</h3>
+            <div class="resume-entries">
+              <article class="resume-entry">
+                <span class="resume-entry__date">Sep 2022</span>
+                <div class="resume-entry__body">
+                  <h4 class="resume-entry__title">Group Leader — Translation Research Project</h4>
+                  <p class="resume-entry__org">Tianjin Foreign Studies University</p>
+                <ul class="resume-entry__list">
+                  <li>Led a team studying English translations of Chinese-specific expressions in <em>Xi Jinping: The Governance of China I</em>, collecting source texts and compiling the final research report.</li>
+                  <li>Analysed translation strategies for converting deep-structure meaning into natural target-language surface structure while preserving the original style.</li>
+                  <li>Concluded that effective translation of Chinese-specific terms requires adherence to target-language norms while retaining Chinese cultural elements.</li>
+                </ul>
+                </div>
+              </article>
+
+              <article class="resume-entry">
+                <span class="resume-entry__date">Oct 2020 – Apr 2021</span>
+                <div class="resume-entry__body">
+                  <h4 class="resume-entry__title">Library Volunteer</h4>
+                  <p class="resume-entry__org">Tianjin Foreign Studies University Library</p>
+                <ul class="resume-entry__list">
+                  <li>Organised and digitised ancient books through systematic scanning and archiving.</li>
+                  <li>Supported the library's preservation efforts for rare and historical materials.</li>
+                </ul>
+                </div>
+              </article>
+
+              <article class="resume-entry">
+                <span class="resume-entry__date">Jun 2021</span>
+                <div class="resume-entry__body">
+                  <h4 class="resume-entry__title">Event Volunteer</h4>
+                  <p class="resume-entry__org">"Face-to-Face with Model Workers and Young Students" Faith Lecture</p>
+                <ul class="resume-entry__list">
+                  <li>Managed on-site order and registered attendance for a university-wide lecture event.</li>
+                </ul>
+                </div>
+              </article>
+            </div>
+          </div>
+
+          <!-- Education -->
+          <div class="resume__block">
+            <h3 class="resume__subtitle">Education</h3>
+            <div class="resume-entries">
+              <article class="resume-entry">
+                <span class="resume-entry__date">Sep 2020 – Jun 2024</span>
+                <div class="resume-entry__body">
+                  <h4 class="resume-entry__title">Bachelor of Arts in Translation &amp; Interpretation</h4>
+                  <p class="resume-entry__org">Tianjin Foreign Studies University (TFSU)</p>
+                <ul class="resume-entry__list">
+                  <li>Weighted Average Score: 86.25/100</li>
+                  <li>Principal's Scholarship, TFSU (2020–2021)</li>
+                </ul>
+                </div>
+              </article>
+            </div>
+          </div>
+
+          <!-- Resume Skills -->
+          <div class="resume__block">
+            <h3 class="resume__subtitle">Skills</h3>
+            <div class="skills">
+              <div class="skill-group">
+                <h4 class="skill-group__title">Languages</h4>
+                <ul class="chips">
+                  <li>English (TEM-8)</li>
+                  <li>Mandarin (Level 2A)</li>
+                  <li>Translation &amp; Interpretation</li>
+                </ul>
+              </div>
+              <div class="skill-group">
+                <h4 class="skill-group__title">Tools</h4>
+                <ul class="chips">
+                  <li>DeepL</li>
+                  <li>Oxford Dictionary</li>
+                  <li>Microsoft Office</li>
+                </ul>
+              </div>
+              <div class="skill-group">
+                <h4 class="skill-group__title">Certifications</h4>
+                <ul class="chips">
+                  <li>CET-4</li>
+                  <li>CET-6</li>
+                  <li>TEM-4 (Good)</li>
+                  <li>TEM-8 (Good)</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="section">
+      <div class="section__inner">
+        <header class="section__head">
+          <span class="section__index">03</span>
+          <h2 class="section__title">Projects</h2>
+        </header>
+        <div class="projects" id="projectGrid">
+          <!-- To-Do List App -->
+          <div class="todo-app" id="todoApp">
+            <header class="todo-app__head">
+              <div class="todo-app__head-row">
+                <h3 class="todo-app__title">To-Do List</h3>
+                <span class="todo-app__count" id="todoCount" aria-live="polite">0 of 0 tasks completed</span>
+              </div>
+              <p class="todo-app__sub">Pick a date, write a task, and press Add.</p>
+            </header>
+
+            <div class="todo-app__main">
+              <!-- Calendar -->
+              <div class="calendar" id="calendar">
+                <div class="calendar__header">
+                  <button type="button" class="calendar__nav" data-dir="prev" aria-label="Previous month">‹</button>
+                  <span class="calendar__title" id="calendarTitle">Month</span>
+                  <button type="button" class="calendar__nav" data-dir="next" aria-label="Next month">›</button>
+                </div>
+                <div class="calendar__weekdays" aria-hidden="true">
+                  <span>Sun</span><span>Mon</span><span>Tue</span><span>Wed</span><span>Thu</span><span>Fri</span><span>Sat</span>
+                </div>
+                <div class="calendar__grid" id="calendarGrid" role="grid"></div>
+              </div>
+
+              <!-- Form + List -->
+              <div class="todo-app__side">
+                <form class="todo-form" id="todoForm">
+                  <label class="todo-form__selected">
+                    <span class="todo-form__selected-label">Selected date</span>
+                    <span class="todo-form__selected-date" id="selectedDateLabel">—</span>
+                  </label>
+                  <div class="todo-form__pickers">
+                    <div class="picker">
+                      <span class="picker__label">Emoji</span>
+                      <div class="picker__emojis" id="emojiPicker" role="group" aria-label="Pick an emoji">
+                        <button type="button" class="emoji-opt is-active" data-emoji="" aria-label="No emoji">∅</button>
+                        <button type="button" class="emoji-opt" data-emoji="📝" aria-label="Note">📝</button>
+                        <button type="button" class="emoji-opt" data-emoji="💼" aria-label="Work">💼</button>
+                        <button type="button" class="emoji-opt" data-emoji="🎯" aria-label="Goal">🎯</button>
+                        <button type="button" class="emoji-opt" data-emoji="💡" aria-label="Idea">💡</button>
+                        <button type="button" class="emoji-opt" data-emoji="🛒" aria-label="Shopping">🛒</button>
+                        <button type="button" class="emoji-opt" data-emoji="🔥" aria-label="Urgent">🔥</button>
+                        <button type="button" class="emoji-opt" data-emoji="❤️" aria-label="Personal">❤️</button>
+                      </div>
+                    </div>
+                    <div class="picker">
+                      <span class="picker__label">Priority</span>
+                      <div class="picker__priority" id="priorityPicker" role="group" aria-label="Pick a priority">
+                        <button type="button" class="pri-opt" data-priority="low">Low</button>
+                        <button type="button" class="pri-opt is-active" data-priority="medium">Medium</button>
+                        <button type="button" class="pri-opt" data-priority="high">High</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="todo-form__row">
+                    <input
+                      type="text"
+                      id="todoInput"
+                      class="todo-form__input"
+                      placeholder="Enter a task..."
+                      autocomplete="off"
+                      required
+                    />
+                    <button type="submit" class="todo-form__add">Add</button>
+                  </div>
+                </form>
+
+                <ul class="todo-list" id="todoList" aria-label="Tasks"></ul>
+
+                <p class="todo-empty" id="todoEmpty">No tasks yet. Add one above.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="section section--alt">
+      <div class="section__inner">
+        <header class="section__head">
+          <span class="section__index">04</span>
+          <h2 class="section__title">Skills</h2>
+        </header>
+        <div class="skills">
+          <div class="skill-group">
+            <h3 class="skill-group__title">Languages</h3>
+            <ul class="chips">
+              <li>TypeScript</li>
+              <li>JavaScript</li>
+              <li>Go</li>
+              <li>Python</li>
+              <li>Rust</li>
+              <li>SQL</li>
+            </ul>
+          </div>
+          <div class="skill-group">
+            <h3 class="skill-group__title">Frontend</h3>
+            <ul class="chips">
+              <li>React</li>
+              <li>Next.js</li>
+              <li>Vue</li>
+              <li>CSS / Sass</li>
+              <li>Vite</li>
+            </ul>
+          </div>
+          <div class="skill-group">
+            <h3 class="skill-group__title">Backend &amp; Infra</h3>
+            <ul class="chips">
+              <li>Node.js</li>
+              <li>PostgreSQL</li>
+              <li>Redis</li>
+              <li>Docker</li>
+              <li>CI/CD</li>
+              <li>AWS</li>
+            </ul>
+          </div>
+          <div class="skill-group">
+            <h3 class="skill-group__title">Practices</h3>
+            <ul class="chips">
+              <li>Design Systems</li>
+              <li>Accessibility</li>
+              <li>Testing</li>
+              <li>Performance</li>
+              <li>Mentoring</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Favorites -->
+    <section id="favorites" class="section">
+      <div class="section__inner">
+        <header class="section__head">
+          <span class="section__index">05</span>
+          <h2 class="section__title">Favorites</h2>
+        </header>
+        <div class="favorites">
+          <p class="favorites__lead">A few things I keep coming back to.</p>
+          <ul class="favorites__list">
+            <li>
+              <span class="fav__emoji">🎤</span>
+              <span><strong>KPOP music</strong> — nothing lifts my mood like a catchy K-pop chorus and a well-choreographed stage.</span>
+              <span class="fav__meta">Music</span>
+            </li>
+            <li>
+              <span class="fav__emoji">📷</span>
+              <span><strong>Photography</strong> — I love capturing small moments and finding beauty in everyday scenes around the city.</span>
+              <span class="fav__meta">Hobby</span>
+            </li>
+            <li>
+              <span class="fav__emoji">🏊</span>
+              <span><strong>Swimming</strong> — my go-to workout to clear my head and feel recharged.</span>
+              <span class="fav__meta">Sport</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section section--alt">
+      <div class="section__inner">
+        <header class="section__head">
+          <span class="section__index">06</span>
+          <h2 class="section__title">Contact</h2>
+        </header>
+        <div class="contact">
+          <p class="contact__lead">
+            Have a project in mind, a question, or just want to say hello?
+            I read every message and try to reply within a couple of days.
+          </p>
+          <a href="mailto:1819086902@qq.com" class="btn btn--primary contact__cta">
+            1819086902@qq.com
+          </a>
+          <ul class="contact__socials">
+            <li><a href="https://github.com/" target="_blank" rel="noopener">GitHub</a></li>
+            <li><a href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn</a></li>
+            <li><a href="https://twitter.com/" target="_blank" rel="noopener">Twitter / X</a></li>
+            <li><a href="https://read.cv/" target="_blank" rel="noopener">Resume</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__fun-facts">
+      <h3 class="footer__heading">Fun Facts About Me</h3>
+      <ul class="footer__facts">
+        <li>😢 I cry a lot when feeling stressed or angry — it's my healthy way to calm down, and it really helps me.</li>
+      </ul>
+    </div>
+    <div class="footer__bar">
+      <p>© <span id="year">2026</span> Zhinan Zhang. Built with care.</p>
+      <a href="#top" class="footer__top">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <script src="script.js?v=11"></script>
+</body>
+</html>
